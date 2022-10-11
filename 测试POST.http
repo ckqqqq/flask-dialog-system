@@ -1,0 +1,10 @@
+POST http://localhost:5000/dialog/wudao/
+Content-Type: application/json
+
+{
+  "aaa": 1,
+  "user_dialog":"用户信息"
+}
+
+
+
