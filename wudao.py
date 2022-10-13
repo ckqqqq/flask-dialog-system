@@ -1,3 +1,4 @@
+# coding=utf-8
 from wudaoai.api_request import executeEngine, getToken
 
 api_key = "b422c1b168fc42a1a914cba949f94e9b"

@@ -1,4 +1,4 @@
-
+import json
 from wudaoai.api_request import executeEngine, getToken
 class WudaoApi():
     def __init__(self):
@@ -31,5 +31,5 @@ class WudaoApi():
             print(resp,"寄了")
             return {"寄了":"寄"}
 
-wudao=WudaoApi()
-wudao.generate_response("爱了爱了")
+# wudao=WudaoApi()
+# wudao.generate_response("爱了爱了")

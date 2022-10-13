@@ -4,3 +4,4 @@
 flask 
 falsk-Cors
 还有一个环境的
+nohup /opt/conda/bin/python app.py 2>&1 &
