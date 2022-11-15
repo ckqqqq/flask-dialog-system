@@ -1,9 +1,10 @@
+#  coding=utf-8
 import json
 from wudaoai.api_request import executeEngine, getToken
 class WudaoApi():
     def __init__(self):
-        self.api_key = "19465a4a8b81447e9fcdc83f1ef0c90f"
-        self.public_key = "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAOXDzzp81ron667QB57B1ce1WcVkhtlJ8Fk2Y+qLfGBN76CA3/H8EkQd7kVExkGSNnKlRuIv4Rwj2ambgbFqddECAwEAAQ=="
+        self.api_key = "1b44c7b1f5d84bec9f63aebb5c20bc4b"
+        self.public_key = "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKJn4nDFNVmzRAofQwhKyCi3D7ujmzwPUrtb6r0JBdh928grXT7UF69UGJOuTC7tvYxzXz/go1JBY+/hZCFGTZECAwEAAQ=="
     def update_key(self,api_k,public_k):
         self.api_key=api_k
         self.public_key=public_k
@@ -23,13 +24,21 @@ class WudaoApi():
         ability_type = "chat"
         # 引擎类型
         engine_type = "chat-general-engine-v1"
-        resp = executeEngine(ability_type, engine_type, token, data)
-        if resp!=None:#python 的not 和!=None
-            print(resp)
-            return resp
+        try:
+            resp = executeEngine(ability_type, engine_type, token, data)
+            if resp!=None:#python 的not 和!=None
+                print(resp)
+        except Exception as e:
+            print(e,"<-WUDAOapi 错误")
+            return {"dada":{"outputText":str(e)}}
         else:
-            print(resp,"寄了")
-            return {"寄了":"寄"}
+            return resp
+            
 
-# wudao=WudaoApi()
-# wudao.generate_response("爱了爱了")
+wudao=WudaoApi()
+res=wudao.generate_response("爱了爱了")
+# print(res['data']['outputText'])
+'''
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '爱了爱了', 'promptDesc': None, 'outputText': '我的天啊,这也太美了吧!', 'inputTokenNum': 4, 'outputTokenNum': 13, 'totalTokenNum': 17, 'taskOrderNo': '1007481583819836075675648', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481583819836075675648'}, 'success': True}
+'''
+# /https://open.wudaoai.com/additionalinformation

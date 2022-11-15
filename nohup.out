@@ -25,3 +25,77 @@
 172.17.0.4 - - [13/Oct/2022 00:22:36] "[37mPOST /dialog/wudao/ HTTP/1.1[0m" 200 -
 172.17.0.4 - - [13/Oct/2022 00:23:08] "[37mPOST /dialog/wudao/ HTTP/1.1[0m" 200 -
 172.17.0.4 - - [13/Oct/2022 08:16:28] "[37mPOST /dialog/wudao/ HTTP/1.1[0m" 200 -
+172.17.0.4 - - [13/Oct/2022 10:42:09] "[37mPOST /dialog/wudao/ HTTP/1.1[0m" 200 -
+172.17.0.4 - - [13/Oct/2022 10:43:11] "[37mPOST /dialog/wudao/ HTTP/1.1[0m" 200 -
+ * Detected change in '/workspace/CKQ/ckq-dialog-system/flask-dialog-system/app.py', reloading
+开始跑了
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '你是说我的吗?', 'inputTokenNum': 4, 'outputTokenNum': 8, 'totalTokenNum': 12, 'taskOrderNo': '1007481580171599934525440', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580171599934525440'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '我的天啊!', 'inputTokenNum': 4, 'outputTokenNum': 6, 'totalTokenNum': 10, 'taskOrderNo': '1007481580171682373570560', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580171682373570560'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '这个是我在北京的时候看到的,当时就觉得好像很有感觉啊!!', 'inputTokenNum': 4, 'outputTokenNum': 25, 'totalTokenNum': 29, 'taskOrderNo': '1007481580172004697444352', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580172004697444352'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '这个是我的,不是我自己的', 'inputTokenNum': 4, 'outputTokenNum': 11, 'totalTokenNum': 15, 'taskOrderNo': '1007481580172008266797056', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580172008266797056'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '你是说我的吗?', 'inputTokenNum': 4, 'outputTokenNum': 8, 'totalTokenNum': 12, 'taskOrderNo': '1007481580180858285985792', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580180858285985792'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '我觉得这个可以有', 'inputTokenNum': 4, 'outputTokenNum': 7, 'totalTokenNum': 11, 'taskOrderNo': '1007481580352345701748736', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580352345701748736'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '你知道我是谁吗?', 'inputTokenNum': 4, 'outputTokenNum': 9, 'totalTokenNum': 13, 'taskOrderNo': '1007481580352628162957312', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580352628162957312'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '这个可以有!!!', 'inputTokenNum': 4, 'outputTokenNum': 8, 'totalTokenNum': 12, 'taskOrderNo': '1007481580352732458520576', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580352732458520576'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '我的天,这个真的太棒啦!!!', 'inputTokenNum': 4, 'outputTokenNum': 14, 'totalTokenNum': 18, 'taskOrderNo': '1007481580352807029051392', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580352807029051392'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '我觉得这个可以有', 'inputTokenNum': 4, 'outputTokenNum': 7, 'totalTokenNum': 11, 'taskOrderNo': '1007481580352879485652992', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580352879485652992'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '我是在看《最后的晚餐》,但是这个电影我觉得不太行。', 'inputTokenNum': 4, 'outputTokenNum': 22, 'totalTokenNum': 26, 'taskOrderNo': '1007481580352979184259072', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580352979184259072'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '这是个好消息,但我还没看完', 'inputTokenNum': 4, 'outputTokenNum': 13, 'totalTokenNum': 17, 'taskOrderNo': '1007481580353085107212288', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580353085107212288'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '我是说你看到的那个是什么样', 'inputTokenNum': 4, 'outputTokenNum': 12, 'totalTokenNum': 16, 'taskOrderNo': '1007481580353185095225344', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580353185095225344'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '你是说这个吗', 'inputTokenNum': 4, 'outputTokenNum': 7, 'totalTokenNum': 11, 'taskOrderNo': '1007481580353264195604480', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580353264195604480'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '我是在看《最后的晚餐》,但是这个电影我觉得不太行。', 'inputTokenNum': 4, 'outputTokenNum': 22, 'totalTokenNum': 26, 'taskOrderNo': '1007481580353272038952960', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580353272038952960'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '你知道我的名字是什么吗?', 'inputTokenNum': 4, 'outputTokenNum': 12, 'totalTokenNum': 16, 'taskOrderNo': '1007481580353408710348800', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580353408710348800'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '我的天!太可爱了!!', 'inputTokenNum': 4, 'outputTokenNum': 10, 'totalTokenNum': 14, 'taskOrderNo': '1007481580472525618548736', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580472525618548736'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '你知道我的名字是什么吗?', 'inputTokenNum': 4, 'outputTokenNum': 12, 'totalTokenNum': 16, 'taskOrderNo': '1007481580509189145497600', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580509189145497600'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '我的意思是说,这个病毒可能会导致人类灭绝!', 'inputTokenNum': 4, 'outputTokenNum': 16, 'totalTokenNum': 20, 'taskOrderNo': '1007481580509446122115072', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580509446122115072'}, 'success': True}
+开始跑了
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://172.17.0.4:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 158-164-140
+172.17.0.4 - - [13/Oct/2022 11:13:56] "[37mPOST /dialog/wudao/ HTTP/1.1[0m" 200 -
+172.17.0.4 - - [14/Oct/2022 02:29:42] "[37mPOST /dialog/wudao/ HTTP/1.1[0m" 200 -
+172.17.0.4 - - [14/Oct/2022 02:30:58] "[37mPOST /dialog/wudao/ HTTP/1.1[0m" 200 -
+172.17.0.4 - - [14/Oct/2022 02:37:24] "[37mPOST /dialog/wudao/ HTTP/1.1[0m" 200 -
+172.17.0.4 - - [14/Oct/2022 02:37:24] "[37mPOST /dialog/wudao/ HTTP/1.1[0m" 200 -
+172.17.0.4 - - [14/Oct/2022 02:37:26] "[37mPOST /dialog/wudao/ HTTP/1.1[0m" 200 -
+172.17.0.4 - - [14/Oct/2022 02:37:28] "[37mPOST /dialog/wudao/ HTTP/1.1[0m" 200 -
+172.17.0.4 - - [14/Oct/2022 02:37:29] "[37mPOST /dialog/wudao/ HTTP/1.1[0m" 200 -
+开始跑了
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "app.py", line 69, in <module>
+    app.run(host="172.17.0.4",port=5000)
+  File "/opt/conda/lib/python3.6/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/opt/conda/lib/python3.6/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+172.17.0.4 - - [14/Oct/2022 02:39:27] "[37mPOST /dialog/wudao/ HTTP/1.1[0m" 200 -
+172.17.0.4 - - [14/Oct/2022 02:43:04] "[37mPOST /dialog/wudao/ HTTP/1.1[0m" 200 -
+ * Detected change in '/workspace/CKQ/ckq-dialog-system/flask-dialog-system/app.py', reloading
+开始跑了
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '这个是真的吗?', 'inputTokenNum': 4, 'outputTokenNum': 7, 'totalTokenNum': 11, 'taskOrderNo': '1007481580517188060712960', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580517188060712960'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '我觉得他们的目的就是让大家知道这件事', 'inputTokenNum': 4, 'outputTokenNum': 15, 'totalTokenNum': 19, 'taskOrderNo': '1007481580747647424270336', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580747647424270336'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '我觉得这个真的是非常的不错。', 'inputTokenNum': 4, 'outputTokenNum': 11, 'totalTokenNum': 15, 'taskOrderNo': '1007481580747964916305920', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580747964916305920'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '你是说我还是你', 'inputTokenNum': 4, 'outputTokenNum': 7, 'totalTokenNum': 11, 'taskOrderNo': '1007481580749583158480896', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580749583158480896'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '我觉得这个是真的。', 'inputTokenNum': 4, 'outputTokenNum': 8, 'totalTokenNum': 12, 'taskOrderNo': '1007481580749586476175360', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580749586476175360'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '你的意思就是说,我是在看这种电影?', 'inputTokenNum': 4, 'outputTokenNum': 15, 'totalTokenNum': 19, 'taskOrderNo': '1007481580749593841373184', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580749593841373184'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '我的天,你这是要干什么?', 'inputTokenNum': 4, 'outputTokenNum': 12, 'totalTokenNum': 16, 'taskOrderNo': '1007481580749599839227904', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580749599839227904'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '这个我知道,是一个很好的科普', 'inputTokenNum': 4, 'outputTokenNum': 13, 'totalTokenNum': 17, 'taskOrderNo': '1007481580749606990516224', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580749606990516224'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '你的意思是说我的观点有问题吗?', 'inputTokenNum': 4, 'outputTokenNum': 13, 'totalTokenNum': 17, 'taskOrderNo': '1007481580750102220378112', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580750102220378112'}, 'success': True}
+{'code': 200, 'msg': '操作成功', 'data': {'prompt': '据了解来看', 'promptDesc': None, 'outputText': '你的意思是说,如果我在现场,我就可以看到你?', 'inputTokenNum': 4, 'outputTokenNum': 19, 'totalTokenNum': 23, 'taskOrderNo': '1007481580751010207502336', 'taskStatus': 'SUCCESS', 'requestTaskNo': '1007481580751010207502336'}, 'success': True}
+ * Restarting with stat
+  File "/workspace/CKQ/ckq-dialog-system/flask-dialog-system/app.py", line 69
+    app.run(host="172.17.0.4",port=)
+                                   ^
+SyntaxError: invalid syntax
