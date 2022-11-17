@@ -32,20 +32,35 @@ class WELMApi():
             'top_k': 10,
             'n': 1,
             'echo': False,
-            'stop': ',，.。',
+            'stop': '\n',
         }
-    def generate_response(self,dialog):
-        self.json_data['prompt']=dialog
-        response = requests.post('https://welm.weixin.qq.com/v1/completions', headers=self.headers, json=self.json_data)        
-        return response.json()
-welm_api=WELMApi()
-dialog='''
-        我：今天我们连线张三，请问张三你吗？ 好奇
-        张三：当然。我是天下第一诗人。 开心 自豪
-        我：我才是天下第一，就你？ 嫉妒
-        张三：那当然，天下第一是官方认证的，我有证书 自豪
-        我：哇，你太厉害了！ 崇拜 羡慕
-        张三：
-        '''
-print(welm_api.generate_response(dialog))
+        self.history_dialog='''
+李四，WELM生成模型。
+张三，对话平台用户，具有多年机器学习研究经验。
+张三：你好啊，我来试用对话大模型。
+李四：欢迎欢迎。
+张三：让我们开始对话吧。
+李四：好呀！你是做什么工作的？
+张三: 我是深度学习领域的研究者。
+张三：你好可爱啊，我好喜欢。
+李四：谢谢夸奖。你也很可爱。
+'''
+    def new_dialog():
+        self.history_dialog=''''''
+    def print_history(self):
+        print("历史",self.history_dialog)
+    def generate_response(self,message):
+        self.history_dialog+="张三："+message+"\n"
+        self.history_dialog+="李四："
+        self.json_data['prompt']=self.history_dialog
+        response = requests.post('https://welm.weixin.qq.com/v1/completions', headers=self.headers, json=self.json_data).json()       
+        self.history_dialog+=response['choices'][0]['text']+"\n"
+        return response['choices'][0]['text']
+# 
+# {'id': '91172ea1-649b-11ed-899b-525400637b45', 'object': 'text_generation', 'created': 1668485483, 'model': 'xl', 'choices': [{'text': '谢谢夸奖。', 'index': 0, 'logprobs': 0, 'finish_reason': 'finished'}]}
+# welm_api=WELMApi()
+# while(1):
+#     print(welm_api.generate_response(input("输入对话：")))
+#     welm_api.print_history()
+
 

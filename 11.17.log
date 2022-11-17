@@ -1,0 +1,37 @@
+nohup: ignoring input
+开始跑了
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 234-380-613
+172.17.0.4 - - [17/Nov/2022 13:59:00] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 13:59:07] "[37mPOST /dialog/welm/ HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 13:59:07] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 13:59:22] "[37mPOST /dialog/welm/ HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 13:59:22] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 13:59:46] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 13:59:54] "[37mPOST /dialog/welm/ HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 13:59:54] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+ * Detected change in '/workspace/CKQ/ckq-dialog-system/flask-dialog-system/app.py', reloading
+开始跑了
+ckq
+all
+[(10086, '2022-11-17-21:58:58', 'ckq', '嘿嘿', '用户情感', '用户对话行为', 'ckq', 'WELM'), (6666666, '2022-11-17-21:58:58', 'WELM_API', '好呀,我是WELM生成模型。', 'AI情感', 'ai对话行为', 'ckq', 'WELM')]
+WELM回复 好呀,我是WELM生成模型。
+ckq
+all
+[(10086, '2022-11-17-21:58:58', 'ckq', '你好', '用户情感', '用户对话行为', 'ckq', 'WELM'), (6666666, '2022-11-17-21:58:58', 'WELM_API', '你好。', 'AI情感', 'ai对话行为', 'ckq', 'WELM')]
+WELM回复 你好。
+ckq
+all
+ckq
+all
+[(10086, '2022-11-17-21:59:44', 'ckq', '嘿', '用户情感', '用户对话行为', 'ckq', 'WELM'), (6666666, '2022-11-17-21:59:44', 'WELM_API', '', 'AI情感', 'ai对话行为', 'ckq', 'WELM')]
+WELM回复 
+ckq
+all

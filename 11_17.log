@@ -1,0 +1,37 @@
+nohup: ignoring input
+开始跑了
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "app.py", line 44, in <module>
+    app.run(host="0.0.0.0",port=5000)
+  File "/opt/conda/lib/172.17.0.4 - - [17/Nov/2022 14:18:08] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:18:10] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=pangu HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:18:21] "[37mPOST /dialog/welm/ HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:18:21] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=pangu HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:18:35] "[37mPOST /dialog/welm/ HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:18:35] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=pangu HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:19:36] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=pangu HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:19:41] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=pangu HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:19:43] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:19:47] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:24:48] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:24:53] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=pangu HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:25:09] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:25:12] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=pangu HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:27:33] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:28:37] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:28:42] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=pangu HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:29:12] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:30:28] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:30:44] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=pangu HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:31:32] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:34:01] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 14:34:12] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=pangu HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 16:04:49] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=pangu HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 16:04:51] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 16:04:54] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=welm HTTP/1.0[0m" 200 -
+172.17.0.4 - - [17/Nov/2022 16:05:05] "[37mGET /dialog/welm/?speaker=ckq&dialog_id=all&model_name=pangu HTTP/1.0[0m" 200 -

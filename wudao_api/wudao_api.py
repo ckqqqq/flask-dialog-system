@@ -3,8 +3,8 @@ import json
 from wudaoai.api_request import executeEngine, getToken
 class WudaoApi():
     def __init__(self):
-        self.api_key = "1b44c7b1f5d84bec9f63aebb5c20bc4b"
-        self.public_key = "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKJn4nDFNVmzRAofQwhKyCi3D7ujmzwPUrtb6r0JBdh928grXT7UF69UGJOuTC7tvYxzXz/go1JBY+/hZCFGTZECAwEAAQ=="
+        self.api_key = "196c64848d524dffa9eda18d76e96b05"
+        self.public_key = "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALyncLiC8KfEyY5OlpF6PvPzPMFQqji+1slCM/LbbhVh9IeSPR2MZMkRYHGdJXSRBFOmJlPi/T80rvnFfbLe538CAwEAAQ=="
     def update_key(self,api_k,public_k):
         self.api_key=api_k
         self.public_key=public_k
